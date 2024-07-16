@@ -48,5 +48,16 @@ public class Operadores {
         String nomeDois = new String("Rogerio");
         System.out.println(nomeUm.equals(nomeDois));
 
+        boolean condicao_1 = true;
+        boolean condicao_2 = false;
+
+        if (condicao_1 && condicao_2) {
+            System.out.println("As duas condições são verdadeiras");
+        }
+        if (condicao_1 || condicao_2) {
+            System.out.println("Uma das condições é verdadeira");
+        }
+        System.out.println("Fim");
+
     }
 }
